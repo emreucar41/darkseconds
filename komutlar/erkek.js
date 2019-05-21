@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
     var role2 = member.guild.roles.find("name", "👤 | Gentleman");
     message.member.addRole(role2);
 
-    message.member.setNickname(`† ${args[0]} [${args[1]}]`)
+    message.member.setNickname(`∞ ${args[0]} [${args[1]}]`)
 
     message.reply("Tebrikler Başarıyla Kayıt Oldun!").then(msg => msg.delete(5000));
 
