@@ -51,7 +51,7 @@ bot.on("guildMemberAdd", function (message) {
 
   let hos = new Discord.RichEmbed()
     .setDescription(`${member.user}, 🏆 **Gecenin Karanlığına Hoşgeldin** 🏆 `)
-    .addField(" 👑 **Erkek iseniz !erkek <isim yaş> [ Örnek : !erkek Berkay 18 ]**", " 🍷 **Kız iseniz !kız <isim yaş> yazarak kayıt olabilirsiniz. [ Örnek : Ceren 18 ]**")
+    .addField(" 👑 **Erkek iseniz !erkek **", " 🍷 **Kız iseniz !kız  **")
     .addField(" ⛔ **Kız permi almış üyeler @📢 | Kayıt Görevlisi'ne teyit vermeden genel sohbet harici diğer odaları görememektedir.**", " 🛡 **Kayıt olduktan sonra kuralları okuyup emojilere tıklarsanız sevinirz. İyi eğlenceler.**")
     .setFooter(`${bot.user.username} Kayıt Mesajı.`)
     .setColor("BLUE")
@@ -74,7 +74,7 @@ bot.on("guildMemberAdd", function (message) {
 
   let Sembed = new Discord.RichEmbed()
     .setDescription(`${member.user}, 🏆 **Gecenin Karanlığına Hoşgeldin** 🏆 `)
-    .addField(" 👑 **Erkek iseniz !erkek <isim yaş> [ Örnek : !erkek Berkay 18 ]**", " 🍷 **Kız iseniz !kız <isim yaş> yazarak kayıt olabilirsiniz. [ Örnek : !kız Ceren 18 ]**")
+    .addField(" 👑 **Erkek iseniz !erkek **", " 🍷 **Kız iseniz !kız  **")
     .addField(" ⛔ **Kız permi almış üyeler @📢 | Kayıt Görevlisi'ne teyit vermeden genel sohbet harici diğer odaları görememektedir.**", " 🛡 **Kayıt olduktan sonra kuralları okuyup emojilere tıklarsanız sevinirz. İyi eğlenceler.**")
     .setFooter(`${bot.user.username} Kayıt Mesajı.`)
     .setColor("BLUE")
