@@ -22,7 +22,7 @@ module.exports.run = async (bot, message, args) => {
 }
 
 module.exports.help = {
-    name: "erkek",
+    name: "kız",
     decription: "Register Server And Join The Voice Channel vs.",
     usage: "?kayıt",
     accessableby: "Members",
